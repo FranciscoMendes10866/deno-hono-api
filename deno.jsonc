@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "build": "deno compile main.ts"
+  },
+  "imports": {
+    "hono": "https://deno.land/x/hono@v3.2.6/mod.ts",
+    "hono/middleware": "https://deno.land/x/hono@v3.2.6/middleware.ts",
+    "server": "https://deno.land/std@0.192.0/http/server.ts",
+    "denodb": "https://deno.land/x/denodb@v1.0.40/mod.ts",
+    "zod": "https://deno.land/x/zod@v3.21.4/mod.ts"
+  }
+}
