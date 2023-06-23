@@ -37,5 +37,3 @@ export const bookSchema = z.object({
   description: z.string(),
   isAvailable: z.boolean(),
 });
-
-export type BookType = z.infer<typeof bookSchema>;
